@@ -1,0 +1,11 @@
+<div oc-lazy-load="['scripts/controllers/about.js', 'scripts/services/helloservice.js']">
+    <div ng-controller="AboutCtrl as about">
+        <p>This is the about view.</p>
+
+        <div>
+            Hello message is from AngularJS service on About Page
+            <br/>
+            <p>{{about.helloMessage}}</p>
+        </div>    
+    </div>
+</div>
